@@ -1,0 +1,19 @@
+.headerLogo {
+    background-image: 
+        linear-gradient(
+            to left bottom,
+            #FF512F,
+            #DD2476
+        );
+    background-clip: text;
+    color: transparent;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 80%;
+    background: #fff;
+}

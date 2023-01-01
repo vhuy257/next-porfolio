@@ -1,0 +1,11 @@
+.toggleBtn {
+    outline: none;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    margin-block-start: 10px;
+}
+
+.toggleBtn svg {
+    margin-inline: auto;
+}
