@@ -13,7 +13,6 @@ const MenuToggle = lazy(
 
 const inter = Inter({ subsets: ['latin'] })
 
-
 const Header = () => {
     const [isOpen, toggleOpen] = useCycle(false, true);
     const containerRef = useRef(null);
@@ -41,7 +40,7 @@ const Header = () => {
 
     return (
         <Suspense>
-            <div className={`container max-w-6xl mx-auto flex justify-between items-center p-4 ${inter.className}`}>
+            <div className={`container max-w-7xl mx-auto flex justify-between items-center p-4 ${inter.className}`}>
                 <motion.nav
                     initial={false}
                     animate={isOpen ? "open" : "closed"}
