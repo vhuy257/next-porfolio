@@ -60,7 +60,7 @@ const Header = () => {
                     <div className="phone_section items-center md:ml-8 hidden md:flex">
                         <PhoneCall /> 
                         <span className="ml-4">
-                            <span className="text-sm font-bold">Contact Us</span> <br/>
+                            <span className="text-sm font-bold">Tổng đài</span> <br/>
                             <span className="text-sm font-bold text-rose-600">076.235.4374</span>
                         </span>
                     </div>
