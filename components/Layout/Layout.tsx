@@ -1,13 +1,11 @@
 import Header from '../Header/Header';
-import Footer from '../Footer/Footer';
 
 const Layout = ({children}: any) => {
-    return (
-        <>
+    return (        
+        <div className="bg-gray-200 relative">
             <Header/>
-                {children}
-            <Footer/>
-        </>
+            {children}            
+        </div>        
     )
 };
 
